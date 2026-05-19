@@ -136,6 +136,62 @@ button:hover {
   display: none;
 }
 
+.participants {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 0.98rem;
+}
+
+.participants-list {
+  margin: 0;
+  padding-left: 0;
+  color: #555;
+  list-style: none;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+}
+
+.participant-item span {
+  overflow-wrap: anywhere;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.remove-participant:hover {
+  color: #9a1f1f;
+}
+
+.no-participants {
+  margin-top: 12px;
+  color: #777;
+  font-style: italic;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
